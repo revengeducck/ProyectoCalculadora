@@ -10,6 +10,12 @@ public class Calculadora {
     public int suma() {
         return num1 + num2;
     }
+    public int resta(int a, int b) {
+        return a - b;
+    }
+    public int multiplicar(int a, int b) {
+        return a * b;
+    }
 }
 
 public class pruebaCalculadora {
