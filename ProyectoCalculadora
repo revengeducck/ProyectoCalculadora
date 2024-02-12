@@ -11,12 +11,3 @@ public class Calculadora {
         return num1 + num2;
     }
 }
-
-public class pruebaCalculadora {
-    public static void main(String[] args) {
-        Calculadora calc = new Calculadora();
-        int a = 10;
-        int b = 5;
-        System.out.println("Suma: " + calc.suma(a, b));
-    }
-}
